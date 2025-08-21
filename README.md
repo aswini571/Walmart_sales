@@ -133,10 +133,12 @@ Code
 For the rest of the code, check the SQL_queries.sql file
 
 -- Create database
+
 CREATE DATABASE IF NOT EXISTS walmartSales;
 
 --Create table
 CREATE TABLE IF NOT EXISTS sales(
+
 	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
     city VARCHAR(30) NOT NULL,
